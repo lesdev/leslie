@@ -1,3 +1,19 @@
+.mobileShow { display: none;}
+
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+
+.mobileHide { display: inline;}
+ /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+
+
 #particles-js {
   background: #000;
   height: 100%;
@@ -48,18 +64,6 @@ body {
   color: #f1f1f1;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    width: 120px;
-    height: 200px;
-    margin-top: -100px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
 .header_title {
   height: 30%;
   width: 100%;
@@ -74,11 +78,11 @@ body {
 }
 
 .header_index {
-  margin-top: 6vh;
+  margin-top: 40px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 9vh;
+  font-size: 5vw;
 }
 
 .subheader_index {
@@ -86,7 +90,7 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 3vh;
+  font-size: 2vw;
 }
 
 a:hover {
