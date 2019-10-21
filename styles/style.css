@@ -77,8 +77,15 @@ body {
   color: WHITE;
 }
 
+.center_item_header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
 .header_index {
-  margin-top: 40px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -334,10 +341,20 @@ html {
 #section5 {
   background-color: #111;
   color: #D9DADA;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* Set the height match */
+  height: 100vh;
 }
 
 .body-container-sec5 {
-  width: 70%;
+
+  height: 100%;
+  width: 100%;
+
+  /* Set the height match */
+  height: 100vh;
   padding-bottom: 30vh;
   padding-left: 7vw;
   padding-right: 7vw;
@@ -346,7 +363,7 @@ html {
   /**color: #505052;**/
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  padding-top: 20vh;
+  padding-top: 30vh;
 }
 
 .contact-header {
